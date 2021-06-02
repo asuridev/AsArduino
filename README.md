@@ -10,14 +10,14 @@
   </ul>
   <article id="asled">
     <h2>AsLed</h2>
-    <p>la librería AsLed permite controlar diodos led de una forma más intuitiva y cómoda. además contiene dos métodos
+    <p>La librería AsLed permite controlar diodos led de una forma más intuitiva y cómoda, además contiene dos métodos
       asíncronos para generar blink o pulsos.</p>
     <h3>Constructor</h3>
     <code>AsLed NombreLed(pin,tipo_de_activacion);</code>
     <p>
-      <b>pin:</b>(byte) define el número del pin donde se conectará el led <br>
-      <b>tipo de activación:</b>(boolean) determina el tipo de activación del led, true define activación a nivel alto
-      mientras que false es activación a nivel bajo. opcionalmente podría utlizarse las constantes <b>ACTIVE_HIGH</b> y
+      <b>pin:</b>(byte) Define el número del pin donde se conectará el led <br>
+      <b>tipo de activación:</b>(boolean) Determina el tipo de activación del led, true define activación a nivel alto
+      mientras que false es activación a nivel bajo. Opcionalmente podría utlizarse las constantes <b>ACTIVE_HIGH</b> y
       <b>ACTIVE_LOW</b> para definir el tipo de activación.
     </p>
     <pre>
