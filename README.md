@@ -118,7 +118,7 @@
     <h3>Constructor</h3>
     <code>AsAnalogSensor NombreSensor(pin, intervalo,resolucion);</code>
     <p>
-      <b>pin:</b> (byte) Define el número del pin de la entrada analógico<br>
+      <b>pin:</b> (byte) Define el número del pin de la entrada analógica<br>
       <b>intervalo:</b>(int) Tiempo en ms en la que se tomaran las muestras<br>
       <b>resolucion:</b>(float) Número de la resolucion del ADC
     </p>
