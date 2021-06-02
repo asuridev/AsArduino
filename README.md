@@ -5,7 +5,7 @@
   <ul>
     <li><a href="#asled">AsLed</a></li>
     <li><a href="#astime">Astime</a></li>
-    <li><a href="#">AsButton</a></li>
+    <li><a href="#asbutton">AsButton</a></li>
     <li><a href="#">AsAnalogSensor</a></li>
   </ul>
   <article id="asled">
@@ -73,6 +73,40 @@
     <p>El metodo setTimeout es asíncrono y se deberá ejecutar
     dentro del loop() ademas su funcinamiento inicia y se detiene
     con los metodos run() y clear() respectivamente</p>
+  </article>
+  <a href="#inicio">Inicio</a>
+  <hr>
+  
+  <article id="asbutton">
+    <h2>AsButton</h2>
+    <p>La librería AsButton permite captura los eventos de forma asíncrona de un pulsador. el pulsador debe ser
+      normalmente abierto y conectarse a tierra</p>
+    <h3>Constructor</h3>
+    <code>AsButton NombrePulsador(pin);</code>
+    <b>pin:</b>(byte) define el número del pin donde se conectará el pulsador<br>
+    <pre>
+          <code>
+            #include &lt;AsButton.h&gt;
+            AsButton buttonOn(4);
+          </code>
+        </pre>
+    <h3>Métodos</h3>
+    <ul>
+      <li><b>addEventListener(evento, callback):</b> Establece un tiempo de espera de forma asíncrona
+        <ul>
+          <li><b>evento:</b>(String) Parametro que indica el evento a escuchar
+            <ul>
+              <li><b>"keydown"</b>evento que se da una vez se oprime el pulsador</li>
+              <li><b>"keyup"</b>evento que se da una vez el pulsador es liberado</li>
+              <li><b>"click"</b>evento que se da cada vez que se oprime y libera rapidamente el pulsador</li>
+              <li><b>"keyhold"</b>evento que se da cuando se mantine oprimido el pulsador por 3 segundos</li>
+            </ul>
+          </li>
+          <li><b>callback:</b>(void Function(void){})función que se ejecutará una vez se dé el evento configurado</li>
+        </ul>
+      </li>
+    </ul>
+    <p>El método addEventListener() es asíncrono y se debe ejecutar dentro del loop()</p>
   </article>
   <a href="#inicio">Inicio</a>
   <hr>
