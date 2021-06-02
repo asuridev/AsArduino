@@ -52,6 +52,7 @@
     <p>La librería AsTime permite generar temporizadores de una forma asíncrona</p>
     <h3>Constructor</h3>
     <code>AsTime NombreTimer;</code>
+    <br>
     <pre>
         <code>
           #include &lt;AsTime.h&gt;
@@ -77,13 +78,13 @@
   <a href="#inicio">Inicio</a>
   <hr>
   
-  <article id="asbutton">
+   <article id="asbutton">
     <h2>AsButton</h2>
     <p>La librería AsButton permite captura los eventos de forma asíncrona de un pulsador. el pulsador debe ser
       normalmente abierto y conectarse a tierra</p>
     <h3>Constructor</h3>
     <code>AsButton NombrePulsador(pin);</code>
-    <b>pin:</b>(byte) define el número del pin donde se conectará el pulsador<br>
+    <p><b>pin:</b>(byte) define el número del pin donde se conectará el pulsador</p>
     <pre>
           <code>
             #include &lt;AsButton.h&gt;
