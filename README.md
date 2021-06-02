@@ -130,14 +130,14 @@
       </pre>
     <h3>Métodos</h3>
     <ul>
-      <li><b>addEventListener("evento", delta, callback):</b>sensa los cambios sobre la entrada analogica
+      <li><b>addEventListener("evento", delta, callback):</b>sensa los cambios sobre la entrada analogica.
         <ul>
-          <li><b>evento:</b>(String) Parametro que indica el evento a escuchar
+          <li><b>evento:</b>(String) Parametro que indica el evento a escuchar.
             <ul>
-              <li><b>"change"</b>Cambio en el valor de la muestra</li>
+              <li><b>"change"</b>Cambio en el valor de la muestra.</li>
             </ul>
           </li>
-          <li><b>delta:</b>(float) Magnitud del cambio de la muestra</li>
+          <li><b>delta:</b>(float) Magnitud del cambio de la muestra.</li>
           <li><b>callback:</b>(void Function(float){}) Función que se ejecutará cuando se dé un cambio en la magnitud establecida, recibe como parámetro el valor de la muestra (float)
           </li>
         </ul>
