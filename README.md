@@ -6,7 +6,7 @@
     <li><a href="#asled">AsLed</a></li>
     <li><a href="#astime">Astime</a></li>
     <li><a href="#asbutton">AsButton</a></li>
-    <li><a href="#">AsAnalogSensor</a></li>
+    <li><a href="#asanalogsensor">AsAnalogSensor</a></li>
   </ul>
   <article id="asled">
     <h2>AsLed</h2>
@@ -108,6 +108,41 @@
       </li>
     </ul>
     <p>El método addEventListener() es asíncrono y se debe ejecutar dentro del loop()</p>
+  </article>
+  <a href="#inicio">Inicio</a>
+  <hr>
+   <article id="asanalogsensor">
+    <h2>AsAnalogSensor</h2>
+    <p>La librería AsAnalogSensor permite controlar de forma asíncrona los eventos asociados a una entrada analogica.
+    </p>
+    <h3>Constructor</h3>
+    <code>AsAnalogSensor NombreSensor(pin, intervalo,resolucion);</code>
+    <p>
+      <b>pin:</b> (byte) Define el número del pin de la entrada analógico<br>
+      <b>intervalo:</b>(int) Tiempo en ms en la que se tomaran las muestras<br>
+      <b>resolucion:</b>(float) Número de la resolucion del ADC
+    </p>
+    <pre>
+        <code>
+          #include <AsAnalogSensor.h>
+          AsAnalogSensor voltimetro(A0, 100, 0.004882);
+        </code>
+      </pre>
+    <h3>Métodos</h3>
+    <ul>
+      <li><b>addEventListener("evento", delta, callback):</b>sensa los cambios sobre la entrada analogica
+        <ul>
+          <li><b>evento:</b>(String) Parametro que indica el evento a escuchar
+            <ul>
+              <li><b>"change"</b>Cambio en el valor de la muestra</li>
+            </ul>
+          </li>
+          <li><b>delta:</b>(float) Magnitud del cambio de la muestra</li>
+          <li><b>callback:</b>(void Function(float){}) Función que se ejecutará cuando se dé un cambio en la magnitud establecida, recibe como parámetro el valor de la muestra (float)
+          </li>
+        </ul>
+      </li>
+    </ul>
   </article>
   <a href="#inicio">Inicio</a>
   <hr>
