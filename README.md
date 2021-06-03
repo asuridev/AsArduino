@@ -15,7 +15,7 @@
     <h3>Constructor</h3>
     <code>AsLed NombreLed(pin,tipo_de_activacion);</code>
     <p>
-      <b>pin:</b>(byte) Define el número del pin donde se conectará el led <br>
+      <b>pin:</b>(byte) Define el número del pin donde se conectará el led. <br>
       <b>tipo de activación:</b>(boolean) Determina el tipo de activación del led, true define activación a nivel alto
       mientras que false es activación a nivel bajo. Opcionalmente podría utlizarse las constantes <b>ACTIVE_HIGH</b> y
       <b>ACTIVE_LOW</b> para definir el tipo de activación.
@@ -29,12 +29,12 @@
     <h3>Métodos</h3>
     <ul>
       <li><b>on():</b> Enciende el led.</li>
-      <li><b>off():</b> Apaga el led</li>
+      <li><b>off():</b> Apaga el led.</li>
       <li><b>toggle():</b> Cambia el estado del led. </li>
       <li><b>set(boolean):</b> Establece el estado del led según el parámetro boolean que recibe.</li>
       <li><b>brightness(byte):</b> Ajusta el brillo del led segun el parametro recibido (de 0 a 100) funciona solo con
         salidas analógicas.</li>
-      <li><b>blink(int):</b> Realiza un efecto estroboscópico(parpadeo) según el tiempo establecido(ms) como parámetro
+      <li><b>blink(int):</b> Realiza un efecto estroboscópico(parpadeo) según el tiempo establecido(ms) como parámetro.
       </li>
       <li><b>pulse(byte cantidad, int duracion):</b> Ejecuta un número de encendidos según el primer parámatro, con una
         duración en ms según el segundo parámetro.</li>
