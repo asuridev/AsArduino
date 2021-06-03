@@ -93,14 +93,14 @@
         </pre>
     <h3>Métodos</h3>
     <ul>
-      <li><b>addEventListener(evento, callback):</b> Establece un tiempo de espera de forma asíncrona
+      <li><b>addEventListener(evento, callback):</b> Establece un tiempo de espera de forma asíncrona.
         <ul>
           <li><b>evento:</b>(String) Parametro que indica el evento a escuchar
             <ul>
-              <li><b>"keydown"</b>evento que se da una vez se oprime el pulsador</li>
-              <li><b>"keyup"</b>evento que se da una vez el pulsador es liberado</li>
-              <li><b>"click"</b>evento que se da cada vez que se oprime y libera rapidamente el pulsador</li>
-              <li><b>"keyhold"</b>evento que se da cuando se mantine oprimido el pulsador por 3 segundos</li>
+              <li><b>"keydown"</b>evento que se dá una vez se oprime el pulsador.</li>
+              <li><b>"keyup"</b>evento que se dá una vez el pulsador es liberado.</li>
+              <li><b>"click"</b>evento que se dá cada vez que se oprime y libera rapidamente el pulsador.</li>
+              <li><b>"keyhold"</b>evento que se dá cuando se mantine oprimido el pulsador por 3 segundos.</li>
             </ul>
           </li>
           <li><b>callback:</b>(void Function(void){})función que se ejecutará una vez se dé el evento configurado</li>
@@ -113,14 +113,14 @@
   <hr>
    <article id="asanalogsensor">
     <h2>AsAnalogSensor</h2>
-    <p>La librería AsAnalogSensor permite controlar de forma asíncrona los eventos asociados a una entrada analogica.
+    <p>La librería AsAnalogSensor permite controlar de forma asíncrona los eventos asociados a una entrada analógica.
     </p>
     <h3>Constructor</h3>
     <code>AsAnalogSensor NombreSensor(pin, intervalo,resolucion);</code>
     <p>
       <b>pin:</b> (byte) Define el número del pin de la entrada analógica<br>
       <b>intervalo:</b>(int) Tiempo en ms en la que se tomaran las muestras<br>
-      <b>resolucion:</b>(float) Número de la resolucion del ADC
+      <b>resolucion:</b>(float) Número de la resolucióon del ADC.
     </p>
     <pre>
         <code>
