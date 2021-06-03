@@ -100,7 +100,7 @@
               <li><b>"keydown"</b>evento que se dá una vez se oprime el pulsador.</li>
               <li><b>"keyup"</b>evento que se dá una vez el pulsador es liberado.</li>
               <li><b>"click"</b>evento que se dá cada vez que se oprime y libera rapidamente el pulsador.</li>
-              <li><b>"keyhold"</b>evento que se dá cuando se mantine oprimido el pulsador por 3 segundos.</li>
+              <li><b>"keyhold"</b>evento que se dá cuando se mantine oprimido el pulsador por más de 3 segundos.</li>
             </ul>
           </li>
           <li><b>callback:</b>(void Function(void){})función que se ejecutará una vez se dé el evento configurado</li>
