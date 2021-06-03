@@ -41,7 +41,7 @@
       <li><b>start():</b> Inicia la ejecución del método blink() o pulse().</li>
       <li><b>stop():</b> Detiene la ejecución del método blink() o pulse().</li>
     </ul>
-    <p>los metodos blink() y pulse() son asíncronos y deben ejecutarse dentro del loop() además su funcionamiento se
+    <p>los métodos blink() y pulse() son asíncronos y deben ejecutarse dentro del loop() además su funcionamiento se
       inicia y se detiene con los métodos start() y stop() respectivamente.</p>
   </article>
   <a href="#inicio">Inicio</a>
@@ -95,7 +95,7 @@
     <ul>
       <li><b>addEventListener(evento, callback):</b> Establece un tiempo de espera de forma asíncrona.
         <ul>
-          <li><b>evento:</b>(String) Parametro que indica el evento a escuchar
+          <li><b>evento:</b>(String) Parametro que indica el evento a escuchar.
             <ul>
               <li><b>"keydown"</b>evento que se dá una vez se oprime el pulsador.</li>
               <li><b>"keyup"</b>evento que se dá una vez el pulsador es liberado.</li>
