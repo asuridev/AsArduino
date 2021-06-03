@@ -73,7 +73,7 @@
     </ul>
     <p>El método setTimeout es asíncrono y se deberá ejecutar
     dentro del loop() además su funcinamiento inicia y se detiene
-    con los métodos run() y clear() respectivamente</p>
+    con los métodos run() y clear() respectivamente.</p>
   </article>
   <a href="#inicio">Inicio</a>
   <hr>
@@ -107,7 +107,7 @@
         </ul>
       </li>
     </ul>
-    <p>El método addEventListener() es asíncrono y se debe ejecutar dentro del loop()</p>
+    <p>El método addEventListener() es asíncrono y se debe ejecutar dentro del loop().</p>
   </article>
   <a href="#inicio">Inicio</a>
   <hr>
