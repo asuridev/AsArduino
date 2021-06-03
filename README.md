@@ -120,7 +120,7 @@
     <p>
       <b>pin:</b> (byte) Define el número del pin de la entrada analógica.<br>
       <b>intervalo:</b>(int) Tiempo en ms en la que se tomaran las muestras.<br>
-      <b>resolucion:</b>(float) Número de la resolucióon del ADC.
+      <b>resolucion:</b>(float) Número de la resolución del ADC.
     </p>
     <pre>
         <code>
@@ -132,7 +132,7 @@
     <ul>
       <li><b>addEventListener("evento", delta, callback):</b>sensa los cambios sobre la entrada analógica.
         <ul>
-          <li><b>evento:</b>(String) Parametro que indica el evento a escuchar.
+          <li><b>evento:</b>(String) Parámetro que indica el evento a escuchar.
             <ul>
               <li><b>"change"</b>Cambio en el valor de la muestra.</li>
             </ul>
