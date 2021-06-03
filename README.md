@@ -42,7 +42,7 @@
       <li><b>stop():</b> Detiene la ejecución del método blink() o pulse().</li>
     </ul>
     <p>los metodos blink() y pulse() son asíncronos y deben ejecutarse dentro del loop() además su funcionamiento se
-      inicia y se detiene con los métodos start() y stop() respectivamente</p>
+      inicia y se detiene con los métodos start() y stop() respectivamente.</p>
   </article>
   <a href="#inicio">Inicio</a>
   <hr>
