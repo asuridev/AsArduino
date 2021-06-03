@@ -49,7 +49,7 @@
   
   <article id="astime">
     <h2>AsTime</h2>
-    <p>La librería AsTime permite generar temporizadores de una forma asíncrona</p>
+    <p>La librería AsTime permite generar temporizadores de una forma asíncrona.</p>
     <h3>Constructor</h3>
     <code>AsTime NombreTimer;</code>
     <br>
@@ -81,10 +81,10 @@
    <article id="asbutton">
     <h2>AsButton</h2>
     <p>La librería AsButton permite captura los eventos de forma asíncrona de un pulsador. El pulsador debe ser
-      normalmente abierto y conectarse a tierra</p>
+      normalmente abierto y conectarse a tierra.</p>
     <h3>Constructor</h3>
     <code>AsButton NombrePulsador(pin);</code>
-    <p><b>pin:</b>(byte) define el número del pin donde se conectará el pulsador</p>
+    <p><b>pin:</b>(byte) define el número del pin donde se conectará el pulsador.</p>
     <pre>
           <code>
             #include &lt;AsButton.h&gt;
@@ -118,8 +118,8 @@
     <h3>Constructor</h3>
     <code>AsAnalogSensor NombreSensor(pin, intervalo,resolucion);</code>
     <p>
-      <b>pin:</b> (byte) Define el número del pin de la entrada analógica<br>
-      <b>intervalo:</b>(int) Tiempo en ms en la que se tomaran las muestras<br>
+      <b>pin:</b> (byte) Define el número del pin de la entrada analógica.<br>
+      <b>intervalo:</b>(int) Tiempo en ms en la que se tomaran las muestras.<br>
       <b>resolucion:</b>(float) Número de la resolucióon del ADC.
     </p>
     <pre>
@@ -130,7 +130,7 @@
       </pre>
     <h3>Métodos</h3>
     <ul>
-      <li><b>addEventListener("evento", delta, callback):</b>sensa los cambios sobre la entrada analogica.
+      <li><b>addEventListener("evento", delta, callback):</b>sensa los cambios sobre la entrada analógica.
         <ul>
           <li><b>evento:</b>(String) Parametro que indica el evento a escuchar.
             <ul>
